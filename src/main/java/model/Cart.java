@@ -32,7 +32,7 @@ public class Cart {
         cartItems.remove(prod);
     }
 
-    void printCartItems() {
+    public void printCartItems() {
         for (Product prod: cartItems) {
             System.out.println(prod.getName());
         }
